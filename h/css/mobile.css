@@ -1,0 +1,396 @@
+
+@media screen and (max-width: 540px) {
+  ul.visibility-hidden{
+    display: none;
+  }
+
+  .transfer-logo-mobile{
+    margin-top: 0px;
+    max-width: 230px!important;
+    margin-bottom: 16px;
+  }
+  .open-query-form{
+    transition: 1s;
+    height: 140vh;
+  }
+  .topnav-centered{
+    top: 3.4rem;
+  }
+  .w-xs-100{
+      width: 100%!important;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.6%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33%;
+  }
+  .col-xs-5 {
+    width: 41.6%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-8 {
+    width: 66%;
+  }
+  .col-xs-10 {
+    width: 80%;
+  }
+  .col-xs-12{
+    width: 100%;
+  }
+  .mx-xs-0{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+  }
+  .px-xs-0{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  .px-xs-1{
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+  }
+  .pr-xs-1{
+    padding-right: 1rem!important;
+  }
+  .pl-xs-1{
+    padding-left: 1rem!important;
+  }
+  .mx-xs-1{
+    margin-left: 1rem!important;
+    margin-right: 1rem!important;
+  }
+  .mt-xs-0{
+    margin-top: 0px!important;
+  }
+  .mt-xs-3{
+    margin-top: 3rem!important;
+  }
+  .mt-xs-5{
+    margin-top: 5rem!important;
+  }
+  .mt-xs-9{
+    margin-top: 9rem!important;
+  }
+  .card-thumbnail{
+    width: 25px!important;
+    height: 25px!important;
+  }
+  .card-stats{
+    height: 87px!important;
+  }
+  .card-stats .card-header{
+    padding: 0.5rem!important;
+  }
+  .wrapper.nav-collapsed .navbar .navbar-header{
+    padding-left: 0px;
+  }
+  .mobile-logo{
+    width: 50px!important;
+  }
+
+  .navbar{
+    padding: 0.5rem 0.5rem;
+  }
+
+  .wrapper.nav-collapsed footer{
+    padding-left: 0px;
+  }
+  .tab-scroll li{
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .tab-scroll li a{
+    display: inline-block;
+  }
+  .tab-scroll{
+    height: 4em;
+    width: max-content;
+  }
+
+  .overflow-auto{
+    overflow: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: white;
+
+  }
+
+  .navbar-header .navbar-collapse-toggle{
+    margin-right:10px;
+  }
+
+  .navbar .navbar-nav .dropdown-menu{
+    right: 20px;
+    width: 90vw;
+  }
+  .dropup, .dropright, .dropdown, .dropleft{
+    position: unset;
+    padding: 0px 5px;
+  }
+  .modal-xl{
+    max-width: 95vw!important;
+  }
+  .modal-lg{
+    max-width: 95vw!important;
+  }
+  .modal-md{
+    max-width: 95vw!important;
+  }
+  .sub-navs li.first{
+    border-top-left-radius : 0px!important;
+    border-bottom-left-radius : 0px!important;
+  }
+  .navbar-container{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .navbarPharmacyName{
+    font-size: 15px;
+  }
+  .sub-navs li.last{
+    border-top-right-radius : 0px!important;
+    border-bottom-right-radius : 0px!important;
+  }
+  .card .card-block{
+    padding: 0rem 0.5rem 1.5rem;
+  }
+  .tblOfferInformationsContainer{
+    max-height:  130px;
+  }
+
+  .card-new-distribution{
+    height: 80vh;
+  }
+
+  .stepwizard h5{
+    font-size: 12px;
+  }
+  .stepwizard .stepwizard-img{
+    max-width: 50px;
+    margin-top: 9px;
+  }
+  .stepwizard .btn-circle{
+    width: 60px;
+    height: 60px;
+  }
+  .second-stepwizard-dot{
+    margin-top: 1.190rem !important;
+  }
+  .right-paravan{
+    right: 50px;
+    top: 70%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px
+  }
+  .left-paravan{
+    left: 45px;
+    width: 100%;
+    top: 5%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px;
+  }
+
+  .product{
+    width: 41vw;
+  }
+  .make3D{
+    width: 138px;
+  }
+  .offer-user-purchase-count{
+    left: 87px;
+  }
+  .information-cards{
+    height: 19vh;
+overflow: hidden;
+overflow-y: scroll;
+  }
+  .query-button{
+    background-size: 136%!important;
+    white-space: pre-wrap;
+  }
+  .condition-table-buttons a{
+    white-space: break-spaces;
+    height: 4rem;
+    padding-top: 0.8rem;
+  }
+  .breadcrumb{
+    padding: 0;
+  }
+
+  /* mobile menu */
+  .mobile-menu{
+    transition: 0.5s width ease;
+    width: 0;
+    height: 100vh;
+    transition: 0.5s right ease;
+    right: -75vw;
+    position: absolute;
+    z-index: 6;
+    background: black;
+  }
+  .mobile-menu.show{
+    width: 75%;
+    height: 100vh;
+    transition: 0.5s right ease;
+    right: 0;
+    position: absolute;
+    z-index: 6;
+    background: black;
+  }
+  .mobile-menu .nav{
+    width: 100%;
+float: right;
+  }
+  .mobile-menu .nav-item{
+    text-align: right;
+    width: 100%!important;
+    padding: 5px 25px;
+  }
+  .offer-form input{
+    text-align: right;
+    width: 60%;
+  }
+  .offer-form input.txtOfferProductName{
+    text-align: left;
+    width: 100%;
+  }
+  .offer-form input#txtOfferGoal{
+    width: 77%;
+  }
+  .offer-form .form-group{
+    display: flex;
+    margin-bottom: 0.3rem!important;
+    border-bottom: 1px solid lightgray;
+  }
+  .offer-form .form-group-short{
+      padding-left: 1rem;
+  }
+  .offer-form label[for="txtOfferGoal"]{
+      padding-right:  1rem;
+  }
+  .offer-form .border-right{
+    border: none!important;
+  }
+
+  .product{
+    height: 222px;
+  }
+  .make3D{
+    height: 215px;
+    width: 138px;
+  }
+  .stats-container{
+    height: 137px;
+    top: 70px;
+  }
+  .offer-user-purchase-count{
+    bottom: 0px;
+    left: 95px;
+    font-size: 17px!important;
+  }
+  .make3D.animate .product{
+    height: 231px;
+  }
+  .make3D.animate{
+    height: 215px;
+    width: 138px;
+
+  }
+  .offer-chat-icon{
+    left: 31px;
+bottom: 7px;
+
+  }
+  .product-options strong{
+    font-size: 10px;
+  }
+  .product-options span{
+    font-size: 9px;
+  }
+  .offer-type-name{
+    text-align: left!important;
+  }
+  .offer-note{
+    font-size: 10px;
+  }
+  .view_gallery{
+    left: 60%!important;
+  width: 127px!important;
+    top: 145px;
+  }
+  .add_to_cart{
+    left: 60%!important;
+  width: 127px!important;
+    top: 180px;
+  }
+  .visibility-block{
+    visibility: inherit;
+  }
+  .make3D.animate .stats-container{
+    height: 137px;
+    top: 0px;
+  }
+
+  .make3D.animate .offer-user-purchase-count{
+    bottom: 42px;
+    left: 81px;
+    font-size: 17px!important;
+  }
+.stepwizard-row{
+  display: block;
+width: 88vw;
+overflow: scroll;
+}
+.information-cards .stepwizard-row{
+  display: table-row!important;
+}
+.information-cards .query-button{
+  background-size: 327%!important;
+  white-space: unset;
+}
+  .stepwizard-step{
+        max-width: 150px;
+  }
+
+  .modal .media img{
+    width: 40%!important;
+  }
+  .frmFilter{
+    justify-content: end;
+  }
+  .frmFilter .form-group{
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 1440px) {
+  .product{
+      position: relative;
+      perspective: 800px;
+      width: 234px;
+    height: 316px;
+    margin-bottom: 20px;
+      transform-style: preserve-3d;
+      transition: transform 5s;
+  	float:left;
+  	-webkit-transition: width 500ms ease-in-out;
+  	   -moz-transition: width 500ms ease-in-out;
+  		-ms-transition: width 500ms ease-in-out;
+  		 -o-transition: width 500ms ease-in-out;
+   		    transition: width 500ms ease-in-out;
+  }
+}

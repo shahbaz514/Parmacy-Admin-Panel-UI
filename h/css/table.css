@@ -1,0 +1,147 @@
+/* table mobile responsive css */
+
+
+.mobile-table .seperator{
+  height: 10px;
+}
+
+.btnSwapOfferDetail{
+  position: absolute;
+  right: 0;
+  width: 24%!important;
+  height: 100%;
+  top: 0;
+}
+
+.mobile-table .group{
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 20px;
+}
+
+.middle-pagination{
+  display: flex;
+}
+
+.mobile-table .group-product-image{
+  width: 10%;
+}
+
+.page-seperator{
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #000000;
+  /* background-color: #FFFFFF; */
+  /* border: 1px solid #DEE2E6; */
+}
+.page-seperator:hover{
+  z-index: 2;
+  color: #232FDE;
+  text-decoration: none;
+  background-color: #E9ECEF;
+  border-color: #DEE2E6;
+}
+
+.mobile-table{
+  vertical-align: middle;
+}
+
+.mobile-table .custom-control-label::before{
+      top: -0.85rem;
+}
+.mobile-table .custom-control-label::after{
+      top: -0.85rem;
+}
+.mobile-table p{
+  margin: 0px;
+}
+
+.mobile-table tbody tr td{
+  /* text-align: justify; */
+  position: relative;
+  white-space: nowrap;
+  padding: 10px!important;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+.mobile-table .mobile-table-button-group{
+  float: right;
+}
+
+.btn-mobile-table-hover-query{
+  width: 46%;
+}
+
+
+
+/* mobile table phone css */
+@media screen and (max-width: 540px) {
+  .content-wrapper{
+    padding:0px;
+  }
+  .offer-button-group{
+    display: inline-block;
+    width: 100%;
+  }
+  .tabs {
+    display: none;
+  }
+  .tab-content{
+    padding-left:  0px!important;
+    padding-right:  0px!important;
+  }
+  .float-right-xs{
+    float: right;
+  }
+  .ul-offers li p{
+    line-height: 15px;
+  }
+  .d-xs-none{
+    display: none;
+  }
+
+  .group-product-image{
+    width: 30%!important;
+    float: left;
+    padding-left: 0px!important;
+  }
+
+  .group-product-title{
+    width: 100%;
+  }
+  .tbl-offers tbody tr td{
+    /* padding: 0px!important; */
+  }
+
+  .mobile-table .group{
+    vertical-align: middle;
+    display: block;
+    text-align: left;
+    padding-left: 12px!important;
+  }
+
+  .mobile-table .mobile-table-button-group{
+    width: 100%!important;
+    margin: auto;
+  }
+
+}
+/* mobile table phone css */
+
+/* mobile table table css */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .tabs {
+    display: block;
+
+  }
+
+}
+/* mobile table table css */
+
+
+
+/* table mobile responsive css */
